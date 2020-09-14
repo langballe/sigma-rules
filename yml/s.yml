@@ -1,0 +1,18 @@
+title: test
+description: test script
+author: Martin
+date: 2020/08/31
+status: experimental
+logsource:
+    category: web
+detection:
+    selection:
+        ip: 119.73.170.50
+        referer: 'http://facebook.com/success/*'
+        #url: "http://facebook*"
+        # extension:
+        #      - rpm
+        #      - deb
+ #   timeframe: 3M
+    condition: selection
+    level: high

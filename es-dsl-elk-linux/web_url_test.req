@@ -5,7 +5,7 @@
         "bool": {
           "must": [
             {
-              "wildcard": {
+              "match_phrase": {
                 "ip": "119.73.170.50"
               }
             },
