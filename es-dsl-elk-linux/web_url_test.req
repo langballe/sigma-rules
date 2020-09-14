@@ -1,0 +1,22 @@
+{
+  "query": {
+    "constant_score": {
+      "filter": {
+        "bool": {
+          "must": [
+            {
+              "wildcard": {
+                "ip": "119.73.170.50"
+              }
+            },
+            {
+              "wildcard": {
+                "referer": "http://facebook.com/*"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
