@@ -8,11 +8,10 @@ logsource:
 detection:
     selection:
         ip: 119.73.170.50
-        referer: 'http://facebook.com/*'
-        #url: "http://facebook*"
-        # extension:
-        #      - rpm
-        #      - deb
+        referer: 'http://nytimes.com/*'
+        #        extension:
+        #    - rpm
+        #    - deb
  #   timeframe: 3M
     condition: selection
     level: high

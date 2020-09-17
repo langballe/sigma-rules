@@ -11,7 +11,7 @@
             },
             {
               "wildcard": {
-                "referer": "http://facebook.com/*"
+                "referer": "http://nytimes.com/*"
               }
             }
           ]

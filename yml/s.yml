@@ -8,7 +8,7 @@ logsource:
 detection:
     selection:
         ip: 119.73.170.50
-        referer: 'http://facebook.com/success/*'
+        referer: 'http://facebook.com/success/dfgfg*'
         #url: "http://facebook*"
         # extension:
         #      - rpm
