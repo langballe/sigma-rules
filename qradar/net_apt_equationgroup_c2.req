@@ -1,0 +1,1 @@
+SELECT UTF8(payload) as search_payload from events where ((destinationip = '69.42.98.86' or destinationip = '89.185.234.145') or (sourceip = '69.42.98.86' or sourceip = '89.185.234.145'))

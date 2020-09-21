@@ -1,0 +1,2 @@
+ SELECT count() as agg_val from events where query ilike '%' group by sourceip having agg_val > 1000 LAST 1 minutes
+ SELECT count() as agg_val from events where dst_port='53' group by sourceip having agg_val > 1000 LAST 1 minutes

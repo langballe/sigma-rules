@@ -1,0 +1,1 @@
+SELECT UTF8(payload) as search_payload from events where (record_type='TXT' and (answer ilike '%IEX%' or answer ilike '%Invoke-Expression%' or answer ilike '%cmd.exe%'))

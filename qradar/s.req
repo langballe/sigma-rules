@@ -1,0 +1,1 @@
+SELECT UTF8(payload) as search_payload from events where (ip='119.73.170.50' and referer ilike 'http://facebook.com/success/dfgfg%')

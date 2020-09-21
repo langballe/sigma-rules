@@ -1,0 +1,2 @@
+ SELECT sum(question_length) as agg_val from events where query ilike '%' group by sourceip having agg_val > 300000 LAST 1 minutes
+ SELECT sum(message_size) as agg_val from events where dst_port='53' group by sourceip having agg_val > 300000 LAST 1 minutes

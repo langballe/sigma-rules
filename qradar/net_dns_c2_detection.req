@@ -1,0 +1,1 @@
+ SELECT count(dns_query) as agg_val from events where parent_domain ilike '%' group by parent_domain having agg_val > 1000

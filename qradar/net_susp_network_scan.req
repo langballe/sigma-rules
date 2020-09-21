@@ -1,0 +1,1 @@
+ SELECT count(dst_port) as agg_val from events where action='denied' group by sourceip having agg_val > 10 LAST 24 hours
